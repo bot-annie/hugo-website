@@ -31,6 +31,21 @@ min_version = "0.43"
     url = "http://nav.cx/fgHl105"
   [[params.links]]
       iconset = "fas"
-      icon = "info-circle"
-      title = "Additional information"
+      icon = "seedling"
+      title = "Author information"
+      url = "#author"
+  [[params.links]]
+      iconset = "fas"
+      icon = "mobile-alt"
+      title = "Product description"
       url = "#info"
+  [[params.links]]
+      iconset = "fas"
+      icon = "file-alt"
+      title = "Documentation"
+      url = "#doc"
+  [[params.links]]
+      iconset = "fas"
+      icon = "qrcode"
+      title = "Add LINE@ account"
+      url = "#CTA"
