@@ -1,6 +1,6 @@
-baseURL = "http://example.org/"
+baseURL = "https://bot-annie.github.io/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "BotAnnie"
 theme = "hallo"
 # theme.toml template for a Hugo theme
 # See https://github.com/gohugoio/hugoThemes#themetoml for an example
@@ -9,7 +9,7 @@ name = "Bot Annie"
 license = "MIT"
 # licenselink = "https://github.com/EmielH/hallo-hugo/blob/master/LICENSE"
 description = "BotAnnie: the botany bot that answer your gardening question with the power from pan-Asian open data"
-# homepage = "https://github.com/EmielH/hallo-hugo"
+homepage = "https://bot-annie.github.io/"
 tags = ["minimal", "clean", "responsive", "simple", "personal", "starter", "single page", "onepage", "Font Awesome", "landing page"]
 features = []
 min_version = "0.43"
@@ -20,7 +20,17 @@ min_version = "0.43"
 
 
 [params]
-    [[params.links]]
-        icon = "github"
-        title = "Github"
-        url = "https://github.com/"
+  [[params.links]]
+    iconset = "fas"
+    icon = "envelope"
+    title = "E-mail"
+    url = "mailto:bendjamin101001@gmail.com"
+  [[params.links]]
+    icon = "line"
+    title = "line"
+    url = "http://nav.cx/fgHl105"
+  [[params.links]]
+      iconset = "fas"
+      icon = "info-circle"
+      title = "Additional information"
+      url = "#info"
